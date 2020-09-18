@@ -5,28 +5,26 @@ function dodajOdejmijMnoz(number1, number2) {
 
 
     if (suma > 0) {
-        console.log("wynik dodawania wynosi" + suma);
+        console.log("wynik dodawania wynosi " + suma);
     } else {
         console.log("Wynik jest nieprawidłowy");
     }
 
-    if (suma > 0) {
-        console.log("wynik dodawania wynosi" - suma);
+    if (roznica > 0) {
+        console.log("wynik odejmowania wynosi ruznica " + roznica);
     } else {
         console.log("Wynik jest nieprawidłowy");
     }
 
 
-    if (suma > 0) {
-        console.log("wynik dodawania wynosi" * suma);
+    if (iloczyn > 0) {
+        console.log("wynik mnozenia wynosi iloczyn" + iloczyn);
     } else {
         console.log("Wynik jest nieprawidłowy");
     }
 
-    console.log("wynik dodawania wynosi " + suma);
-    console.log("wynik odejmowanie wynosi " + roznica);
-    console.log("wynik mnozenia wynosi " + iloczyn);
-    console.log(dodajOdejmijMnoz(number1, number2));
+  
+   
 }
 dodajOdejmijMnoz(10, 20);
 let liczba1 = 20;
